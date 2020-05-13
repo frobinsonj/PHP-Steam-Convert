@@ -1,4 +1,9 @@
 <?php
+/*
+https://github.com/frobinsonj/PHP-Steam-Convert
+MIT License
+Copyright (c) 2020 Freddy Robinson
+*/
 
 class SteamConvert
 {

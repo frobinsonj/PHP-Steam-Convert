@@ -65,7 +65,7 @@ class SteamConvert
 		else if (self::isProfileLink($id))
 		{
 			$profile = json_decode(json_encode(simplexml_load_string(file_get_contents($id."?xml=1"))),true);
-			$steamID = (int)$profile['steamID64'];
+			$steamID = $profile['steamID64'];
 		}
 		else
 		{

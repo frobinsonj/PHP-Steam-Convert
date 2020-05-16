@@ -12,7 +12,7 @@ class SteamConvert
 
 	public function __construct($steam = null)
 	{
-		if (self::isSteamID($steam))
+		if (self::isValid($steam))
 		{
 			$this->communityID	= self::toCommunityID($steam);
 			$this->steamID		= self::toSteamID($steam);
